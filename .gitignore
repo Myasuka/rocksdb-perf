@@ -1,0 +1,16 @@
+.classpath
+.idea
+.settings
+.project
+*.class
+*.iml
+*.swp
+*.jar
+*.log
+.DS_Store
+target
+*dependency-reduced-pom.xml
+db-data
+*LOG
+*LOG.old*
+chk-*
