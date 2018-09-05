@@ -226,7 +226,7 @@ public class RocksDBInstance implements AutoCloseable {
     }
 
     void getDBStatistics() {
-        LOG.info("Start to get DB statics.");
+        LOG.info("Start to fetch DB statics.");
         long currentTimeMillis = System.currentTimeMillis();
         double passedTime = (currentTimeMillis - lastStaticsTimeMills) / 1000.0;
         this.lastStaticsTimeMills = currentTimeMillis;

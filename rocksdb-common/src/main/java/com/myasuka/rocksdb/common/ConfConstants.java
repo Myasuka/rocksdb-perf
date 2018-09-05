@@ -19,7 +19,9 @@
 package com.myasuka.rocksdb.common;
 
 public class ConfConstants {
-    public static final int NUM_KEYS = 9000000;
+    public static final int DEFAULT_NUM_KEYS = 10000000;
+
+    public static final int DEFAULT_QUERY_TIMES = 3;
 
     public static final int VALUE_BYTE_LENGTH = 9;
 }
